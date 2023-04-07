@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(26, 15, 49);
+}
+h1 , h2 ,h3, p ,#date-form{
+  text-align: center;
+  color: white;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+} 
+p {
+padding: 2em;
+}
+@media screen and  (max-width:600px) {
+h1 , label  {
+font-size: medium;
+}
+h2 {
+  font-size: small;
+}
+}
